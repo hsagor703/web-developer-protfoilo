@@ -173,3 +173,104 @@ main{
     border-radius: 5px;
 }
 /* skills section ends here  */
+
+/* resume section start here  */
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+
+.experience-description{
+    color: #757575;
+    font-size: 16px;
+}
+
+.experience-sub-title{
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.experience-title{
+    color: #474747;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.resume-colomn-title{
+    color: #474747;
+    font-size: 30px;
+    font-weight: bold;
+    /* margin-bottom: 10px; */
+}
+
+.title-section{
+    color: #181818;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+hr{
+    color: #d1d1d1;
+}
+
+.cv-downlode-btn{
+    margin-top: 50px;
+    margin-bottom: 113px;
+}
+/* resume section ends here  */
+
+/* footer section start here  */
+.footer-section{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+
+.footer-title{
+    color: #181818;
+    font-weight: bold;
+    font-size: 35px;
+}
+.footer-title-2{
+    color: #181818;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.footer-description{
+    color: #474747;
+    font-size: 16px;
+}
+
+footer input[type="text"], footer input[type="email"] {
+    height: 64px;
+    width: 641px;
+    border-radius: 5px;
+    border: none;
+    background-color: white;
+    font-size: 16px;
+    color: #757575;
+    padding: 18px 0 18px 32px;
+    margin-bottom: 24px;
+}
+
+form textarea{
+    height: 64px;
+    width: 641px;
+    margin-bottom: 24px;
+    border-radius: 5px;
+    border: none;
+    background-color: white;
+    font-size: 16px;
+    color: #757575;
+    padding: 18px 0 18px 32px;
+}
+
+.submit-btn{
+    margin-bottom: 130px;
+}
+
+/* footer section ends here  */
