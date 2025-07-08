@@ -25,6 +25,10 @@
     color: #757575;
 }
 
+.secondary-bg{
+    background-color: #FFF8F3;
+}
+
 .btn-primary{
     color: white;
     background-color: #FD6E0A;
@@ -35,6 +39,15 @@
     border: none;
     /* width: 150px; */
     /* height: 64px; */
+}
+
+.section-title{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.section-descrption{
+    font-size: 18px;
 }
 /* shared style ends here  */
 
@@ -110,3 +123,35 @@ nav li a{
 
 
 /* banner style ends here  */
+
+/* main style start here  */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* main style ends here  */
+
+/* about section start here  */
+.about-section{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+}
+
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+
+.item-title{
+    font-size: 20ox;
+    color: #757575;
+}
+
+.item-description{
+    font-weight: bold;
+    font-size: 20px;
+    color: #474747;
+}
+/* about section ends here  */
