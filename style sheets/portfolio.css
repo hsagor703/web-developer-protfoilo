@@ -60,6 +60,8 @@
     background-image: url(../images/developer.png), url(../images/header_bg.png);
     background-repeat: no-repeat;
     background-position: top left, bottom right;
+    max-width: 1600px;
+    margin: 0 auto;
 }
 /* header section ends here  */
 
@@ -71,7 +73,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 50px 200px;
+    margin: 0px 200px 50px 200px;
 
 }
 
@@ -221,6 +223,10 @@ hr{
 /* resume section ends here  */
 
 /* footer section start here  */
+footer{
+     max-width: 1600px;
+    margin: 0 auto;
+}
 .footer-section{
     display: flex;
     justify-content: space-between;
@@ -274,3 +280,20 @@ form textarea{
 }
 
 /* footer section ends here  */
+
+
+/* responsive area  */
+.hide{
+    display: none;
+}
+@media screen and (max-width: 576px) {
+    .skills-container, .footer-section, .resume-container, .about-items{
+        flex-direction: column;
+    }
+    form textarea, footer input[type="text"], footer input[type="email"] {
+       width: 90%;
+    }
+    .footer-section, .about-section{
+        padding: 15px;
+    }
+}
