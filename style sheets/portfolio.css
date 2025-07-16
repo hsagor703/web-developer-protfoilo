@@ -287,10 +287,20 @@ form textarea{
     display: none;
 }
 @media screen and (max-width: 576px) {
-    .skills-container, .footer-section, .resume-container, .about-items{
+    .skills-container, .footer-section, .resume-container, .about-items, .banner-section, nav, nav ul{
         flex-direction: column;
     }
-    form textarea, footer input[type="text"], footer input[type="email"] {
+
+    .header{
+        background-image: none;
+    }
+    .banner-section{
+        margin: 5px;
+    }
+    ul > li, .banner-decription, .btn-primary{
+        margin-bottom: 20px;
+    }
+    .banner-img, form textarea, footer input[type="text"], footer input[type="email"] {
        width: 90%;
     }
     .footer-section, .about-section{
